@@ -13,14 +13,6 @@
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <script data-search-pseudo-elements defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.24.1/feather.min.js" crossorigin="anonymous"></script>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-26G2E27H5W"></script>
-        <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-26G2E27H5W');
-        </script>
     </head>
     <body>
         <div id="layoutDefault">
