@@ -1,0 +1,17 @@
+{
+    "name": "guillaume/redac",
+    "autoload": {
+        "psr-4": {
+            "Guillaume\\Redac\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "TheHuman00",
+            "email": "boenguillaume@proton.me"
+        }
+    ],
+    "require": {
+        "phpoffice/phpword": "^1.0"
+    }
+}
