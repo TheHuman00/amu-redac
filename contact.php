@@ -11,7 +11,7 @@ include_once('./libs/header.php'); ?>
                                         <h1 class="page-header-ui-title">Vous souhaitez nous contacter ?</h1>
                                         <p class="page-header-ui-text mb-5">Contact moi comme tu peux ahhah</p>
                                         <a class="btn btn-teal fw-500 me-2" href="#!">Whatsapp</a>
-                                        <a class="btn btn-dark fw-500" href="#!">Discord</a>
+                                        <a class="btn btn-dark fw-500" href="https://discord.gg/EkXxgTz7FV">Discord</a>
                                     </div>
                                 </div>
                             </div>
@@ -48,7 +48,7 @@ include_once('./libs/header.php'); ?>
                                     <div class="card card-team">
                                         <div class="card-body">
                                             <img class="card-team-img mb-3" src="https://i.imgur.com/8Neitn7.jpg" alt="..." />
-                                            <div class="card-team-name">Guillaume Boen</div>
+                                            <div class="card-team-name">Guillaume</div>
                                             <div class="card-team-position mb-3">Développeur</div>
                                             <p class="small mb-0">Jeune AMU (fin j'espère)</p>
                                             <p class="small mb-0"><a href="mailto:support@amu-redac.com">support@amu-redac.com</a></p>
@@ -81,9 +81,8 @@ include_once('./libs/header.php'); ?>
                             <div class="container px-5">
                                 <div class="row gx-5 justify-content-center">
                                     <div class="col-xl-8 col-lg-10 text-center mb-4" data-aos="fade">
-                                        <h1 class="page-header-ui-title">Tout le site SERA en open-source</h1>
-                                        <p class="page-header-ui-text">Un organigramme explique toute la structure du site - <strong>Regarder aussi les crédits ci-dessous</strong></p>
-                                        <a class="btn btn-primary fw-500 me-2" href="#!">Voir le code</a>
+                                        <h1 class="page-header-ui-title">Tout le site est en open-source</h1>
+                                        <a class="btn btn-primary fw-500 me-2" href="https://github.com/TheHuman00/amu-redac">Voir le code</a>
                                     </div>
                                 </div>
                             </div>
@@ -96,7 +95,7 @@ include_once('./libs/header.php'); ?>
                         <div class="container px-5">
                             <div class="device-laptop text-gray-200 mt-n10" data-aos="fade-up">
                                 <svg class="device-container" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="83.911 298.53 426.962 243.838"><path d="M474.843 516.208V309.886c0-6.418-4.938-11.355-11.354-11.355H131.791c-6.417 0-11.354 4.938-11.354 11.355v206.816H83.911v13.326c4.938 7.896 31.098 12.34 40.969 12.34h345.024c10.366 0 36.526-4.936 40.969-12.34v-13.326h-36.03v-.494zM134.26 313.341h326.762v203.361H134.26V313.341z"></path></svg>
-                                <img class="device-screenshot" src="https://i.imgur.com/lGQtxkP.jpg" />
+                                <img class="device-screenshot" src="https://i.imgur.com/NcseEJu.png" />
                             </div>
                         </div>
                     </section>
