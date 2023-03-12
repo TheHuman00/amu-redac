@@ -81,12 +81,12 @@
                                 </ul>
                             </div>
                             <?php if($session->isUserLoggedIn()):?>
-                            <a class="btn fw-500 ms-lg-4 btn-danger" href="logout">
+                            <a class="btn fw-500 btn-sm ms-lg-4 btn-danger" href="logout">
                                     Se déconnecter
                                     <i class="ms-2" data-feather="arrow-right"></i>
                                 </a>
                                 <?php else:?>
-                                    <a class="btn fw-500 ms-lg-4 btn-teal" href="login">
+                                    <a class="btn fw-500 btn-sm ms-lg-4 btn-teal" href="login">
                                     Se connecter
                                     <i class="ms-2" data-feather="arrow-right"></i>
                                 </a>
