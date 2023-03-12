@@ -8,10 +8,10 @@ include_once('./libs/header.php'); ?>
                             <div class="container px-5">
                                 <div class="row gx-5 justify-content-center">
                                     <div class="col-xl-8 col-lg-10 text-center">
-                                        <h1 class="page-header-ui-title">Vous souhaitez nous contacter ?</h1>
+                                        <h1 class="page-header-ui-title">Site en OPEN-SOURCE sur GITHUB</h1>
                                         <p class="page-header-ui-text mb-5">Contact moi comme tu peux ahhah</p>
-                                        <a class="btn btn-teal fw-500 me-2" href="#!">Whatsapp</a>
-                                        <a class="btn btn-dark fw-500" href="https://discord.gg/EkXxgTz7FV">Discord</a>
+                                        <a class="btn btn-dark fw-500 me-2" href="https://github.com/TheHuman00/amu-redac">GitHub</a>
+                                        <a class="btn btn-secondary fw-500" href="https://discord.gg/EkXxgTz7FV">Discord</a>
                                     </div>
                                 </div>
                             </div>

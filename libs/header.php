@@ -50,7 +50,7 @@
                                             <?php endif; endforeach;?>
                                         </div>
                                     </li>
-                                    <li class="nav-item"><a class="nav-link" href="contact">Info Contact</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="contact">Info / Contact</a></li>
                                     <li class="nav-item dropdown dropdown-s no-caret">
                                         <a class="nav-link dropdown-toggle" id="navbarDropdownDemos" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                             Mon compte

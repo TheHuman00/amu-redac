@@ -49,7 +49,7 @@
                         <div class="row gx-5 align-items-center">
                             <div class="col-md-6 small">Copyright &copy; AMU-Rédac (Open-Source)</div>
                             <div class="col-md-6 text-md-end small">
-                                <a href="contact">Contact / Equipe</a>
+                                <a href="contact">Contact / Code Source</a>
                                 &middot;
                                 <a href="contact">Crédits</a>
                             </div>
