@@ -50,9 +50,9 @@
                         <div class="row gx-5 align-items-center">
                             <a class="col-md-6 small" href="https://github.com/TheHuman00/amu-redac" target="_blank">Copyright &copy; AMU Rédac (Open-Source)</a>
                             <div class="col-md-6 text-md-end small">
-                                <a href="contact">Contact / Code Source</a>
+                                <a href="contact">Crédits / Code Source</a>
                                 &middot;
-                                <a href="contact">Crédits</a>
+                                <a href="privacy">Cookie Policy</a>
                             </div>
                         </div>
                     </div>
@@ -69,6 +69,7 @@
                 once: true,
             });
         </script>
+        <script>feather.replace()</script>
         <script src="js/autosize.min.js"></script>
         <script>autosize(document.querySelectorAll('#autosize'));</script>
     </body>

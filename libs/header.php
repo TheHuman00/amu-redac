@@ -66,6 +66,7 @@
                                         </a>
                                         <div class="dropdown-menu dropdown-menu-end animated--fade-in-up me-lg-n25 me-xl-n15" aria-labelledby="navbarDropdownDemos">
                                             <?php if($session->isUserLoggedIn()): ?>
+                                            <h6 class="dropdown-header text-primary"><?php echo $user['email'];?></h6>
                                             <div class="row g-0">
                                                 <a class="dropdown-item" href="changer_mdp">Changer de mot de passe</a>
                                                 <div class="dropdown-divider border-0 d-lg-none"></div>

@@ -1,5 +1,5 @@
 <?php
-session_set_cookie_params(86400, "/", "localhost", false, true);
+session_set_cookie_params(86400, "/", "amu-redac.com", true, true);
 session_start();
 class Session
 {

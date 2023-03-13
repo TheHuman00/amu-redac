@@ -47,11 +47,11 @@ include_once('./libs/header.php'); ?>
         <div class="col-lg-8 col-xl-6">
           <form method="post" action="changer_mdp" class="clearfix">
             <div class="form-floating mb-3">
-              <input class="form-control" type="text" name="old-password" placeholder="Ancien mot de passe..." required />
+              <input class="form-control" type="password" name="old-password" placeholder="Ancien mot de passe..." required />
               <label for="ancien">Ancien mot de passe</label>
             </div>
             <div class="form-floating mb-3">
-              <input class="form-control" type="text" name="new-password" placeholder="Nouveau mot de passe..." required />
+              <input class="form-control" type="password" name="new-password" placeholder="Nouveau mot de passe..." required />
               <label for="ancien">Nouveau mot de passe</label>
             </div>
             <input type="hidden" name="id" value="<?php echo (int)$user['id']; ?>">
