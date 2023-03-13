@@ -120,7 +120,7 @@ include_once('./libs/header.php'); ?>
                     <div class="card mb-5">
                         <div class="card-header">18# Résumé de la pathologie</div>
                         <div class="card-body">
-                                <textarea name="editor2" class="form-control" id="autosize" style="min-height: 100px"><?php if ($exist_mission && !empty($find_mission['patho'])) {
+                                <textarea name="editor2" class="form-control" id="autosize" style="min-height: 150px"><?php if ($exist_mission && !empty($find_mission['patho'])) {
                                                                             echo str_replace("\\r\\n" ,PHP_EOL , $find_mission['patho']);
                                                                         } ?></textarea>
                         </div>

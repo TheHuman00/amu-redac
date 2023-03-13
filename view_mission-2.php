@@ -112,7 +112,7 @@ include_once('./libs/header.php'); ?>
                                 <label for="num_mission">Age</label>
                             </div>
                             <div class="form-floating mb-3">
-                                <textarea class="form-control" id="autosize" name="antcd" style="min-height: 100px"><?php if($exist_mission && !empty($find_mission['antcd'])){echo base64_decode($find_mission['antcd']);}?></textarea>
+                                <textarea class="form-control" id="autosize" placeholder="Effectuer une liste simple des antécédents connu surplace de la victime" name="antcd" style="min-height: 100px"><?php if($exist_mission && !empty($find_mission['antcd'])){echo base64_decode($find_mission['antcd']);}?></textarea>
                                 <label for="motif">Antécédents</label>
                             </div>
                     </div>
@@ -121,7 +121,7 @@ include_once('./libs/header.php'); ?>
                 <div class="card mb-5">
                     <div class="card-header">4# SSS</div>
                     <div class="card-body">
-                            <textarea class="form-control" id="autosize" name="editor" style="min-height: 100px"><?php if($exist_mission && !empty($find_mission['SSS'])){echo str_replace("\\r\\n" ,PHP_EOL ,$find_mission['SSS']);}?></textarea>
+                            <textarea class="form-control" id="autosize" name="editor" placeholder="Comment était la sécurité sur place ? Quel sont les dangers potentiel ?" style="min-height: 100px"><?php if($exist_mission && !empty($find_mission['SSS'])){echo str_replace("\\r\\n" ,PHP_EOL ,$find_mission['SSS']);}?></textarea>
                     </div>
                 </div>
                 <div class="card mb-5">
@@ -149,11 +149,11 @@ include_once('./libs/header.php'); ?>
                                 <label for="titre">Position de la victime</label>
                             </div>
                             <h4>Airways (du quicklook)</h4>
-                                <textarea name="editor1" class="form-control" id="autosize" style="min-height: 100px"><?php if($exist_mission && !empty($find_mission['airways_ql'])){echo str_replace("\\r\\n" ,PHP_EOL ,$find_mission['airways_ql']);}?></textarea>
+                                <textarea name="editor1" class="form-control" placeholder="[Brievement] Comment était les voies respiratoires ?" id="autosize" style="min-height: 100px"><?php if($exist_mission && !empty($find_mission['airways_ql'])){echo str_replace("\\r\\n" ,PHP_EOL ,$find_mission['airways_ql']);}?></textarea>
                             <h4>Breathing (du quicklook)</h4>
-                                <textarea name="editor2" class="form-control" id="autosize" style="min-height: 100px"><?php if($exist_mission && !empty($find_mission['breathing_ql'])){echo str_replace("\\r\\n" ,PHP_EOL ,$find_mission['breathing_ql']);}?></textarea>
+                                <textarea name="editor2" class="form-control" placeholder="[Brievement] Comment était la respiration subjectivement ? (difficulté respi apparante ?)" id="autosize" style="min-height: 100px"><?php if($exist_mission && !empty($find_mission['breathing_ql'])){echo str_replace("\\r\\n" ,PHP_EOL ,$find_mission['breathing_ql']);}?></textarea>
                             <h4>Circulation (du quicklook)</h4>
-                                <textarea name="editor3" class="form-control" id="autosize" style="min-height: 100px"><?php if($exist_mission && !empty($find_mission['circulation_ql'])){echo str_replace("\\r\\n" ,PHP_EOL ,$find_mission['circulation_ql']);}?></textarea>
+                                <textarea name="editor3" class="form-control" placeholder="[Brievement] Comment était le pouls ? (Frappé, régulier ?)" id="autosize" style="min-height: 100px"><?php if($exist_mission && !empty($find_mission['circulation_ql'])){echo str_replace("\\r\\n" ,PHP_EOL ,$find_mission['circulation_ql']);}?></textarea>
                         
                     </div>
                 </div>

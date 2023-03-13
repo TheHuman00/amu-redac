@@ -5,7 +5,7 @@
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="🚑 Faire son rapport AMU au fur et à mesure ! 🏥 Aide rédaction rapport de stage amu ambulance">
+        <meta name="description" content="🚑 Faire son rapport AMU au fur et à mesure ! 🏥 Aide rédaction rapport de stage amu ambulance. amu redac">
         <meta name="author" content="TheHuman00" />
         <title><?php if(!empty($pagetitre)){echo $pagetitre;}else{echo "AMU-Rédac";}?></title>
         <link href="css/styles.css" rel="stylesheet" />

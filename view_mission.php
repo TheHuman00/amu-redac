@@ -120,7 +120,7 @@ include_once('./libs/header.php'); ?>
                 <div class="card mb-5">
                     <div class="card-header">2# Bilan de la situation à l'arrivée</div>
                     <div class="card-body">
-                        <textarea class="form-control" id="autosize" name="editor" style="min-height: 100px"><?php if($exist_mission){echo str_replace("\\r\\n" ,PHP_EOL ,$find_mission['bilan_cir']);}?></textarea>
+                        <textarea class="form-control" id="autosize" name="editor" style="min-height: 100px" placeholder="Essayer de donner la meilleur image de la situation à l'arrivée"><?php if($exist_mission){echo str_replace("\\r\\n" ,PHP_EOL ,$find_mission['bilan_cir']);}?></textarea>
                     </div>
                 </div>
                 </form>
