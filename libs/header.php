@@ -10,9 +10,9 @@
         <title><?php if(!empty($pagetitre)){echo $pagetitre;}else{echo "AMU-Rédac";}?></title>
         <link href="css/styles.css" rel="stylesheet" />
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-        <script data-search-pseudo-elements defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.24.1/feather.min.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/aos.css" />
+        <script data-search-pseudo-elements defer src="js/all.min.js"></script>
+        <script src="js/feather.min.js"></script>
     </head>
     <body>
         <div id="layoutDefault">
