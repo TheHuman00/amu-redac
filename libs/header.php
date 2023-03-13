@@ -13,6 +13,14 @@
         <link rel="stylesheet" href="css/aos.css" />
         <script data-search-pseudo-elements defer src="js/all.min.js"></script>
         <script src="js/feather.min.js"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-2VQV7K0FMJ"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-2VQV7K0FMJ');
+        </script>
     </head>
     <body>
         <div id="layoutDefault">

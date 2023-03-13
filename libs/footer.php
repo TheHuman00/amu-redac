@@ -48,7 +48,7 @@
                         <?php endif;?>
                         <hr class="my-5" />
                         <div class="row gx-5 align-items-center">
-                            <a class="col-md-6 small" href="https://github.com/TheHuman00/amu-redac">Copyright &copy; AMU Rédac (Open-Source)</a>
+                            <a class="col-md-6 small" href="https://github.com/TheHuman00/amu-redac" target="_blank">Copyright &copy; AMU Rédac (Open-Source)</a>
                             <div class="col-md-6 text-md-end small">
                                 <a href="contact">Contact / Code Source</a>
                                 &middot;

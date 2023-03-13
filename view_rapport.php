@@ -1,5 +1,5 @@
 <?php 
-$pagetitre = "Horaires - Infinotes";
+$pagetitre = "Mes rapports - AMU-Rédac";
 $footerdark = true;
 require_once('includes/load.php');
 if(!$session->isUserLoggedIn()) { redirect('login', false);}

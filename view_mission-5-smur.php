@@ -104,7 +104,7 @@ include_once('./libs/header.php'); ?>
                         <div class="card-header">16# Difficultés rencontrées (techniques et/ou psychologiques)</div>
                         <div class="card-body">
                                 <textarea name="editor" class="form-control" id="autosize" style="min-height: 100px"><?php if ($exist_mission && !empty($find_mission['diff'])) {
-                                                                        echo str_replace("\\r\\n" ,PHP_EOL , $find_mission['diff']);
+                                                                        echo stripslashes(str_replace("\\r\\n" ,PHP_EOL , $find_mission['diff']));
                                                                     }?></textarea>
                         </div>
                     </div>
@@ -113,7 +113,7 @@ include_once('./libs/header.php'); ?>
                         <div class="card-header">17# Evaluation et critique de la mission</div>
                         <div class="card-body">
                                 <textarea name="editor1" class="form-control" id="autosize" style="min-height: 100px"><?php if ($exist_mission && !empty($find_mission['eval'])) {
-                                                                            echo str_replace("\\r\\n" ,PHP_EOL , $find_mission['eval']);
+                                                                            echo stripslashes(str_replace("\\r\\n" ,PHP_EOL , $find_mission['eval']));
                                                                         }?></textarea>
                         </div>
                     </div>
@@ -121,7 +121,7 @@ include_once('./libs/header.php'); ?>
                         <div class="card-header">18# Résumé de la pathologie</div>
                         <div class="card-body">
                                 <textarea name="editor2" class="form-control" id="autosize" style="min-height: 150px"><?php if ($exist_mission && !empty($find_mission['patho'])) {
-                                                                            echo str_replace("\\r\\n" ,PHP_EOL , $find_mission['patho']);
+                                                                            echo stripslashes(str_replace("\\r\\n" ,PHP_EOL , $find_mission['patho']));
                                                                         } ?></textarea>
                         </div>
                     </div>
@@ -129,7 +129,7 @@ include_once('./libs/header.php'); ?>
                         <div class="card-header">19# Ressenti de la mission</div>
                         <div class="card-body">
                                 <textarea name="editor3" class="form-control" id="autosize" style="min-height: 100px"><?php if ($exist_mission && !empty($find_mission['ressenti'])) {
-                                                                            echo str_replace("\\r\\n" ,PHP_EOL , $find_mission['ressenti']);
+                                                                            echo stripslashes(str_replace("\\r\\n" ,PHP_EOL , $find_mission['ressenti']));
                                                                         } ?></textarea>
                         </div>
                     </div>

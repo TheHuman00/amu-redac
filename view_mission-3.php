@@ -54,7 +54,7 @@ if (isset($_POST['sauv_1'])) {
 
 $a_content = "# Observations
 # Actions menés
-# Analyse du système";
+# Analyse du système / Points d'attentions";
 $b_content = "# Paramètres
 Fréquence : 
 Volume : 
@@ -62,16 +62,16 @@ Travail respiratoire majoré :
 Oxygène :
 # Observations
 # Actions menés
-# Analyse du système";
+# Analyse du système / Points d'attentions";
 $c_content = "# Paramètres
-Pression périphérique :
+Perfusion périphérique :
 Pouls :
 Pression artérielle :
 Précharge :
 
 # Observations
 # Actions menés
-# Analyse du système
+# Analyse du système / Points d'attentions
 ";
 $d_content = "# Paramètres
 GCS : 
@@ -85,7 +85,7 @@ Motricité :
 
 # Observations
 # Actions
-# Analyse du système";
+# Analyse du système / Points d'attentions";
 $e_content = "# Paramètres
 SAMPLE :
     Allergie :
@@ -97,7 +97,7 @@ SAMPLE :
 
 # Observations
 # Actions
-# Analyse du système";
+# Analyse du système / Points d'attentions";
 
 include_once('./libs/header.php'); ?>
 <?php if (!empty($_GET['sauv'])) {
