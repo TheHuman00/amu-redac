@@ -59,9 +59,9 @@
                 </footer>
             </div>
         </div>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
         <script src="js/scripts.js"></script>
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script src="js/aos.js"></script>
         <script>
             AOS.init({
                 disable: 'mobile',
@@ -69,7 +69,7 @@
                 once: true,
             });
         </script>
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/autosize.js/4.0.2/autosize.min.js"></script>
+        <script src="js/autosize.min.js"></script>
         <script>autosize(document.querySelectorAll('#autosize'));</script>
     </body>
 </html>
