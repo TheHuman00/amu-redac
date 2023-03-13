@@ -4,10 +4,11 @@
                     <div class="container px-5">
                         <div class="row gx-5">
                             <div class="col-lg-3">
-                                <div class="footer-brand">AMU-Rédac</div>
-                                <div class="mb-3">Aide à la rédaction</div>
+                                <div class="footer-brand">AMU Rédac</div>
+                                <div class="mb-3">Aide à la rédaction | Prise de note | Ambulance | SMUR</div>
                                 <div class="icon-list-social mb-5">
-                                    <a class="icon-list-social-link"><i class="fas fa-align-justify"></i></a>
+                                    <a class="icon-list-social-link" href="https://github.com/TheHuman00/"><i class="fab fa-github"></i></a>
+                                    <a class="icon-list-social-link" href="mailto:support@amu-redac.com"><i class="far fa-envelope"></i></a>
                                 </div>
                             </div>
                             <div class="col-lg-9">
@@ -47,7 +48,7 @@
                         <?php endif;?>
                         <hr class="my-5" />
                         <div class="row gx-5 align-items-center">
-                            <div class="col-md-6 small">Copyright &copy; AMU-Rédac (Open-Source)</div>
+                            <a class="col-md-6 small" href="https://github.com/TheHuman00/amu-redac">Copyright &copy; AMU Rédac (Open-Source)</a>
                             <div class="col-md-6 text-md-end small">
                                 <a href="contact">Contact / Code Source</a>
                                 &middot;

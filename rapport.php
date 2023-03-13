@@ -80,7 +80,8 @@ include_once('./libs/header.php'); ?>
                                             </div>
                                             <div class="col-md-6">
                                                 <label class="text-dark mb-2" for="inputDate">Date</label>
-                                                <input class="form-control py-4" id="inputDate" name="date" type="date" value="<?php echo date("Y-m-d");?>" disabled/>
+                                                <input class="form-control py-4" id="inputDate" type="date" value="<?php echo date("Y-m-d");?>" disabled/>
+                                                <input class="form-control py-4" id="inputDate" name="date" type="hidden" value="<?php echo date("Y-m-d");?>"/>
                                             </div>
                                         </div>
                                         <div class="text-center"><button class="btn btn-primary mt-4" name="add_rapport" type="submit">Créer le rapport</button></div>

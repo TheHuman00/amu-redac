@@ -34,7 +34,8 @@ include_once('./libs/header.php'); ?>
                         <div class="container px-5">
                             <div class="row gx-5 justify-content-center">
                                 <div class="col-lg-10">
-                                <h1 class="text-center mb-4">Rapport - <?php echo $rapport['title']?></h1>
+                                <h1 class="text-center">Rapport - <?php echo $rapport['title']?></h1>
+                                <p class="text-center text-muted mb-4">Télécharger le rapport en bas de la page</p>
                                     <div class="d-flex align-items-center justify-content-between">
                                         <h2 class="mb-0">Mission - AMBULANCE</h2>
                                         <div class="badge bg-<?php if($count_mission == "5"){echo "success";}else{echo "primary";}?>-soft text-<?php if($count_mission == "5"){echo "success";}else{echo "primary";}?> badge-marketing"><?php echo $count_mission?>/5 marqué terminé</div>

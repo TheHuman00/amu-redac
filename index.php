@@ -10,7 +10,7 @@ include_once('./libs/header.php');?>
                                 <div class="row gx-5 align-items-center">
                                     <div class="col-lg-6" data-aos="fade-up">
                                         <h1 class="page-header-ui-title">Une petite aide pour mes futurs AMU <3</h1>
-                                        <p class="page-header-ui-text mb-5">Création simplifié : faire son rapport au fur et à mesure</p>
+                                        <p class="page-header-ui-text mb-5">Création simplifié : faire son rapport au fur et à mesure. Permet de prendre des notes structurées pendant les stages !</p>
                                         <a class="btn btn-teal fw-500 me-2" href="rapport">
                                             Commencer rapport
                                             <i class="ms-2" data-feather="arrow-right"></i>
@@ -31,7 +31,7 @@ include_once('./libs/header.php');?>
                                 <div class="col-lg-4 mb-5 mb-lg-0">
                                     <div class="icon-stack icon-stack-xl bg-gradient-primary-to-secondary text-white mb-4"><i data-feather="fast-forward"></i></div>
                                     <h3>Simplifié</h3>
-                                    <p class="mb-0">Formulaire qui insère toutes les informations dans le rapport.</p>
+                                    <p class="mb-0">Formulaire qui insère toutes les informations dans le rapport. Permet de prendre des notes structurées pendant les stages !</p>
                                 </div>
                                 <div class="col-lg-4 mb-5 mb-lg-0">
                                     <div class="icon-stack icon-stack-xl bg-gradient-primary-to-secondary text-white mb-4"><i data-feather="pen-tool"></i></div>
