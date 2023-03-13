@@ -36,12 +36,12 @@ include_once('./libs/header.php');?>
                                 <div class="col-lg-4 mb-5 mb-lg-0">
                                     <div class="icon-stack icon-stack-xl bg-gradient-primary-to-secondary text-white mb-4"><i data-feather="pen-tool"></i></div>
                                     <h3>Fichier .docx</h3>
-                                    <p class="mb-0">A la fin de la création, un fichier .docx avec votre rapport sera donnné</p>
+                                    <p class="mb-0">A la fin de la création, un fichier .docx avec votre rapport sera donnné.</p>
                                 </div>
                                 <div class="col-lg-4">
                                     <div class="icon-stack icon-stack-xl bg-gradient-primary-to-secondary text-white mb-4"><i data-feather="bar-chart"></i></div>
                                     <h3>Faire son rapport au fur et à mesure</h3>
-                                    <p class="mb-0">Vous pouvez faire mission par mission, les données seront enregistrées</p>
+                                    <p class="mb-0">Vous pouvez faire mission par mission, les données seront enregistrées.</p>
                                 </div>
                             </div>
                         </div>

@@ -98,7 +98,7 @@ include_once('./libs/header.php'); ?>
                         <div class="card-header">11# Actes ambulanciers réalisés sur place (en référence aux OP et Procédures)</div>
                         <div class="card-body">
                                 <textarea name="editor" class="form-control" id="autosize" placeholder="Quel actes ont été réalisé par les !!ambulanciers!! ? A quel procédure fédéral fait référence ?" style="min-height: 100px"><?php if ($exist_mission && !empty($find_mission['actes'])) {
-                                                                        echo str_replace("\\r\\n" ,PHP_EOL , $find_mission['actes']);
+                                                                        echo stripslashes(str_replace("\\r\\n" ,PHP_EOL , $find_mission['actes']));
                                                                     }?></textarea>
                         </div>
                     </div>
@@ -107,7 +107,7 @@ include_once('./libs/header.php'); ?>
                         <div class="card-header">12# Réévaluation du bilan / Evaluation du degré d’urgence</div>
                         <div class="card-body">
                                 <textarea name="editor1" class="form-control" placeholder="Comment a évalué le bilan et a quel point est-il urgent ?" id="autosize" style="min-height: 100px"><?php if ($exist_mission && !empty($find_mission['reevalution'])) {
-                                                                            echo str_replace("\\r\\n" ,PHP_EOL , $find_mission['reevalution']);
+                                                                            echo stripslashes(str_replace("\\r\\n" ,PHP_EOL , $find_mission['reevalution']));
                                                                         }?></textarea>
                         </div>
                     </div>
@@ -115,7 +115,7 @@ include_once('./libs/header.php'); ?>
                         <div class="card-header">13# Décision d’appel à un autre moyen de secours</div>
                         <div class="card-body">
                                 <textarea name="editor2" class="form-control" placeholder="Moyen supplémentaire engagé ? Aurai été nécessaire ? Analyse" id="autosize" style="min-height: 100px"><?php if ($exist_mission && !empty($find_mission['autre_moyen'])) {
-                                                                            echo str_replace("\\r\\n" ,PHP_EOL , $find_mission['autre_moyen']);
+                                                                            echo stripslashes(str_replace("\\r\\n" ,PHP_EOL , $find_mission['autre_moyen']));
                                                                         } ?></textarea>
                         </div>
                     </div>
@@ -123,7 +123,7 @@ include_once('./libs/header.php'); ?>
                         <div class="card-header">14# Descriptif des gestes techniques effectués par le stagiaire</div>
                         <div class="card-body">
                                 <textarea name="editor3" class="form-control" placeholder="Qu'avez vous fait ? Comment analysé vous ? Chose à améliorer ?" id="autosize" style="min-height: 100px"><?php if ($exist_mission && !empty($find_mission['actes_stagiaire'])) {
-                                                                            echo str_replace("\\r\\n" ,PHP_EOL , $find_mission['actes_stagiaire']);
+                                                                            echo stripslashes(str_replace("\\r\\n" ,PHP_EOL , $find_mission['actes_stagiaire']));
                                                                         } ?></textarea>
                         </div>
                     </div>
@@ -132,7 +132,7 @@ include_once('./libs/header.php'); ?>
                         <div class="card-body">
                             <div class="form-floating mb-3">
                                 <textarea name="editor4" class="form-control" placeholder="Point d'attention pendant le transport ?" id="autosize" style="min-height: 100px"><?php if ($exist_mission && !empty($find_mission['surveillance'])) {
-                                                                            echo str_replace("\\r\\n" ,PHP_EOL , $find_mission['surveillance']);
+                                                                            echo stripslashes(str_replace("\\r\\n" ,PHP_EOL , $find_mission['surveillance']));
                                                                         } ?></textarea>
                         </div>
                     </div>
