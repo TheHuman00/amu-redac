@@ -4,7 +4,7 @@ $footerdark = true;
 require_once('includes/load.php');
 if(!$session->isUserLoggedIn()) { redirect('login', false);}
 $user = current_user();
-$id = $_GET['id'];
+$id = htmlspecialchars($_GET['id']);
 if (!$id) {
 	$session->msg("d", "Identifiant manquant.");
 	redirect("rapport");

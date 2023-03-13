@@ -6,8 +6,8 @@ if (!$session->isUserLoggedIn()) {
     redirect('login', false);
 }
 $user = current_user();
-$id = $_GET['id'];
-$mission = $_GET['mission'];
+$id = htmlspecialchars($_GET['id']);
+$mission = htmlspecialchars($_GET['mission']);
 $exist_mission = false;
 if (!$id) {
     $session->msg("d", "Identifiant manquant.");
