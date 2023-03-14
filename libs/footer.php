@@ -62,15 +62,6 @@
         <script src="js/bootstrap.bundle.min.js"></script>
         <script src="js/scripts.js"></script>
         <script src="js/aos.js"></script>
-        <script>
-            AOS.init({
-                disable: 'mobile',
-                duration: 600,
-                once: true,
-            });
-        </script>
-        <script>feather.replace()</script>
         <script src="js/autosize.min.js"></script>
-        <script>autosize(document.querySelectorAll('#autosize'));</script>
     </body>
 </html>
