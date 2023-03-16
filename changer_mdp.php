@@ -66,4 +66,4 @@ include_once('./libs/header.php'); ?>
     </div>
   </div>
 </section>
-<?php include_once('./libs/footer.php'); ?>
+<?php include_once('./libs/footer.php');
