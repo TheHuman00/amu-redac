@@ -13,14 +13,6 @@
         <link rel="stylesheet" href="css/aos.css" />
         <script data-search-pseudo-elements defer src="js/all.min.js"></script>
         <script src="js/feather.min.js"></script>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-2VQV7K0FMJ"></script>
-        <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-2VQV7K0FMJ');
-        </script>
     </head>
     <body>
         <div id="layoutDefault">
@@ -33,7 +25,7 @@
                     <?php endif;?>
                         <div class="container px-5">
                         <a href="index">
-                        <img class="navbar-brand" src="https://i.imgur.com/vbkFYtb.png" height="55" wight="55" alt="logo">
+                        <img class="navbar-brand" src="./assets/img/icon.png" height="55" wight="55" alt="logo">
                         </a>
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i data-feather="menu"></i></button>
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">

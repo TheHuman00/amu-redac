@@ -47,7 +47,7 @@ include_once('./libs/header.php'); ?>
                                 <div class="col-md-6 col-xl-4 mb-5">
                                     <div class="card card-team">
                                         <div class="card-body">
-                                            <img class="card-team-img mb-3" src="https://i.imgur.com/8Neitn7.jpg" alt="..." />
+                                            <img class="card-team-img mb-3" src="./assets/img/emoji.jpg" alt="..." />
                                             <div class="card-team-name">Guillaume</div>
                                             <div class="card-team-position mb-3">Développeur</div>
                                             <p class="small mb-0">Jeune AMU (fin j'espère)</p>
@@ -63,7 +63,7 @@ include_once('./libs/header.php'); ?>
                                 <div class="col-md-6 col-xl-4 mb-5">
                                     <div class="card card-team">
                                         <div class="card-body">
-                                            <img class="card-team-img mb-3" src="https://i.imgur.com/A0wNEx1.png" alt="..." />
+                                            <img class="card-team-img mb-3" src="./assets/img/empty-emoji.png" alt="..." />
                                             <div class="card-team-name">Envie de nous aider ?</div>
                                             <div class="card-team-position mb-3">Des places de libre pour vous</div>
                                             <p class="small mb-0">Faire partie de l'équipe ?</p>
@@ -95,7 +95,7 @@ include_once('./libs/header.php'); ?>
                         <div class="container px-5">
                             <div class="device-laptop text-gray-200 mt-n10" data-aos="fade-up">
                                 <svg class="device-container" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="83.911 298.53 426.962 243.838"><path d="M474.843 516.208V309.886c0-6.418-4.938-11.355-11.354-11.355H131.791c-6.417 0-11.354 4.938-11.354 11.355v206.816H83.911v13.326c4.938 7.896 31.098 12.34 40.969 12.34h345.024c10.366 0 36.526-4.936 40.969-12.34v-13.326h-36.03v-.494zM134.26 313.341h326.762v203.361H134.26V313.341z"></path></svg>
-                                <img class="device-screenshot" src="https://i.imgur.com/NcseEJu.png" />
+                                <img class="device-screenshot" src="./assets/img/repo.png" />
                             </div>
                         </div>
                     </section>

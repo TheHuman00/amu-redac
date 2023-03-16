@@ -11,4 +11,4 @@ Header set Strict-Transport-Security "max-age=2629800000; includeSubDomains"
 Header set X-XSS-Protection "1; mode=block"
 Header always append X-Frame-Options DENY
 Header set X-Content-Type-Options nosniff
-Header add Content-Security-Policy "default-src 'self' *.google-analytics.com; child-src 'self'; img-src 'self' *.imgur.com; script-src 'self' 'unsafe-inline' *.googletagmanager.com; style-src 'self' 'unsafe-inline'; font-src 'self' data:; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; object-src 'self'"
+Header add Content-Security-Policy "default-src 'self'; child-src 'self'; img-src 'self'; script-src 'self' 'unsafe-inline' *.cloudflareinsights.com; style-src 'self' 'unsafe-inline'; font-src 'self' data:; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; object-src 'self'"
