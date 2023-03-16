@@ -144,52 +144,52 @@ include_once('./libs/header.php'); ?>
                     <div class="card mb-5">
                         <div class="card-header">6# A</div>
                         <div class="card-body">
-                                <textarea name="editor" class="form-control" id="autosize" style="min-height: 100px"><?php if ($exist_mission && !empty($find_mission['a'])) {
-                                                                        echo str_replace("\\r\\n" ,PHP_EOL , $find_mission['a']);
-                                                                    } else {
-                                                                        echo $a_content;
-                                                                    } ?></textarea>
+                            <textarea name="editor" class="form-control" id="autosize" style="min-height: 100px"><?php if ($exist_mission && !empty($find_mission['a'])) {
+                                                                                                                        echo str_replace("\\r\\n", PHP_EOL, $find_mission['a']);
+                                                                                                                    } else {
+                                                                                                                        echo $a_content;
+                                                                                                                    } ?></textarea>
                         </div>
                     </div>
 
                     <div class="card mb-5">
                         <div class="card-header">7# B</div>
                         <div class="card-body">
-                                <textarea name="editor1" class="form-control" id="autosize" style="min-height: 100px"><?php if ($exist_mission && !empty($find_mission['b'])) {
-                                                                            echo str_replace("\\r\\n" ,PHP_EOL , $find_mission['b']);
-                                                                        } else {
-                                                                            echo $b_content;
-                                                                        } ?></textarea>
+                            <textarea name="editor1" class="form-control" id="autosize" style="min-height: 100px"><?php if ($exist_mission && !empty($find_mission['b'])) {
+                                                                                                                        echo str_replace("\\r\\n", PHP_EOL, $find_mission['b']);
+                                                                                                                    } else {
+                                                                                                                        echo $b_content;
+                                                                                                                    } ?></textarea>
                         </div>
                     </div>
                     <div class="card mb-5">
                         <div class="card-header">8# C</div>
                         <div class="card-body">
-                                <textarea name="editor2" class="form-control" id="autosize" style="min-height: 100px"><?php if ($exist_mission && !empty($find_mission['c'])) {
-                                                                            echo str_replace("\\r\\n" ,PHP_EOL ,$find_mission['c']);
-                                                                        } else {
-                                                                            echo $c_content;
-                                                                        } ?></textarea>
+                            <textarea name="editor2" class="form-control" id="autosize" style="min-height: 100px"><?php if ($exist_mission && !empty($find_mission['c'])) {
+                                                                                                                        echo str_replace("\\r\\n", PHP_EOL, $find_mission['c']);
+                                                                                                                    } else {
+                                                                                                                        echo $c_content;
+                                                                                                                    } ?></textarea>
                         </div>
                     </div>
                     <div class="card mb-5">
                         <div class="card-header">9# D</div>
                         <div class="card-body">
-                                <textarea name="editor3" class="form-control" id="autosize" style="min-height: 100px"><?php if ($exist_mission && !empty($find_mission['d'])) {
-                                                                            echo str_replace("\\r\\n" ,PHP_EOL , $find_mission['d']);
-                                                                        } else {
-                                                                            echo $d_content;
-                                                                        } ?></textarea>
+                            <textarea name="editor3" class="form-control" id="autosize" style="min-height: 100px"><?php if ($exist_mission && !empty($find_mission['d'])) {
+                                                                                                                        echo str_replace("\\r\\n", PHP_EOL, $find_mission['d']);
+                                                                                                                    } else {
+                                                                                                                        echo $d_content;
+                                                                                                                    } ?></textarea>
                         </div>
                     </div>
                     <div class="card mb-5">
                         <div class="card-header">10# E</div>
                         <div class="card-body">
-                                <textarea name="editor4" class="form-control" id="autosize" style="min-height: 100px"><?php if ($exist_mission && !empty($find_mission['e'])) {
-                                                                            echo str_replace("\\r\\n" ,PHP_EOL ,$find_mission['e']);
-                                                                        } else {
-                                                                            echo $e_content;
-                                                                        } ?></textarea>
+                            <textarea name="editor4" class="form-control" id="autosize" style="min-height: 100px"><?php if ($exist_mission && !empty($find_mission['e'])) {
+                                                                                                                        echo str_replace("\\r\\n", PHP_EOL, $find_mission['e']);
+                                                                                                                    } else {
+                                                                                                                        echo $e_content;
+                                                                                                                    } ?></textarea>
                         </div>
                     </div>
                 </form>

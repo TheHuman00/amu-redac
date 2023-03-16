@@ -1,7 +1,9 @@
 <?php
 $page_title = 'Mots de passe';
 require_once('includes/load.php');
-if(!$session->isUserLoggedIn()) { redirect('index', false);}
+if (!$session->isUserLoggedIn()) {
+  redirect('index', false);
+}
 $user = current_user();
 $database = new MySqli_DB();
 
@@ -55,7 +57,9 @@ include_once('./libs/header.php'); ?>
               <label for="ancien">Nouveau mot de passe</label>
             </div>
             <input type="hidden" name="id" value="<?php echo (int)$user['id']; ?>">
-            <div class="d-grid"><button class="btn btn-primary btn-lg" name="update" type="submit">Modifier</button></div>
+            <div class="d-grid">
+              <button class="btn btn-primary btn-lg" name="update" type="submit">Modifier</button>
+            </div>
           </form>
         </div>
       </div>

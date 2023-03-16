@@ -1,5 +1,5 @@
             <div id="layoutDefault_footer">
-            <?php if(!empty($lgfooter) && $lgfooter == true):?>
+            <?php if (!empty($lgfooter) && $lgfooter):?>
                 <footer class="footer pt-10 pb-5 mt-auto bg-light footer-light">
                     <div class="container px-5">
                         <div class="row gx-5">
@@ -39,7 +39,7 @@
                             </div>
                         </div>
                         <?php else:?>
-                            <?php if(!empty($footerdark) && $footerdark == true):?>
+                            <?php if (!empty($footerdark) && $footerdark):?>
                             <footer class="footer pt-1 pb-5 mt-auto bg-dark footer-dark">
                             <?php else:?>
                                 <footer class="footer pt-1 pb-5 mt-auto bg-light footer-light">

@@ -2,7 +2,7 @@
 $pagetitre = "Rapport - AMU-Rédac";
 $footerdark = true;
 require_once('includes/load.php');
-if(!$session->isUserLoggedIn()) { redirect('login', false);}
+if (!$session->isUserLoggedIn()) { redirect('login', false);}
 $user = current_user();
 $database = new MySqli_DB();
 $rapports = find_all('rapports');
