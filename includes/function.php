@@ -95,6 +95,6 @@ function randString($length = 5)
   $cha = "0123456789abcdefghijklmnopqrstuvwxyz";
 
   for($x=0; $x<$length; $x++)
-   $str .= $cha[mt_rand(0,strlen($cha))];
+   $str .= $cha[random_int(0,strlen($cha))];
   return $str;
 }
