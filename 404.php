@@ -26,4 +26,4 @@ include_once('./libs/header.php'); ?>
     </div>
 </section>
 </main>
-<?php include_once('./libs/footer.php'); ?>
+<?php include_once('./libs/footer.php');

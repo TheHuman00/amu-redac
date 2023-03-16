@@ -138,4 +138,4 @@ include_once('./libs/header.php'); ?>
 </section>
 </main>
 
-<?php include_once('libs/footer.php'); ?>
+<?php include_once('libs/footer.php');
