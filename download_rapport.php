@@ -1,6 +1,6 @@
 <?php
 require_once('includes/load.php');
-if(!$session->isUserLoggedIn()) { redirect('login', false);}
+if (!$session->isUserLoggedIn()) { redirect('login', false);}
 $user = current_user();
 $id = $_GET['id'];
 if (!$id) {
@@ -8,14 +8,13 @@ if (!$id) {
 	redirect("rapport");
 }else{
     $rapport = find_by_id('rapports', $id);
-    if($rapport['user'] !== $user['email']){
+    if ($rapport['user'] !== $user['email']){
         redirect("rapport");
     }
 }
 
 function prepare($texte){
-    $text_prepared = str_replace("\\r\\n" , "<w:br/>" , $texte);
-    return $text_prepared;
+    return $text_prepared = str_replace("\\r\\n", "<w:br/>" , $texte);
 }
 
 
@@ -335,4 +334,3 @@ header('Content-type: application/vnd.openxmlformats-officedocument.wordprocessi
 header('Content-Disposition: attachment; filename="'.$docxName.'"');
 readfile($pathToSave);
 unlink($pathToSave);
-?>

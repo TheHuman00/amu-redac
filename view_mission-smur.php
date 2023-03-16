@@ -19,7 +19,7 @@ if (!$id) {
             redirect("rapport");
         }
         $find_mission = trouver_mission_smur($id, $mission);
-        if($find_mission){
+        if ($find_mission) {
             $exist_mission = true;
         }
     } else {
@@ -89,40 +89,50 @@ include_once('./libs/header.php'); ?>
                 </div>
             </div>
             <div class="col-lg-8 col-xl-9">
-            <form method="post" action="view_mission-smur?id=<?php echo $id; ?>&mission=<?php echo $mission; ?>">
-                <div class="d-flex align-items-center justify-content-between flex-column flex-md-row">
-                    <h2 class="mb-0">Introduction de mission</h2>
-                    <button class="btn btn-secondary btn-m me-2" name="sauv_1" type="submit">Sauvegarder et suivant</button>
-                </div>
-                <hr class="mb-4" />
-                <div class="card mb-5">
-                    <div class="card-header">1# Mission</div>
-                    <div class="card-body">
+                <form method="post" action="view_mission-smur?id=<?php echo $id; ?>&mission=<?php echo $mission; ?>">
+                    <div class="d-flex align-items-center justify-content-between flex-column flex-md-row">
+                        <h2 class="mb-0">Introduction de mission</h2>
+                        <button class="btn btn-secondary btn-m me-2" name="sauv_1" type="submit">Sauvegarder et suivant</button>
+                    </div>
+                    <hr class="mb-4" />
+                    <div class="card mb-5">
+                        <div class="card-header">1# Mission</div>
+                        <div class="card-body">
                             <div class="form-floating mb-3">
-                                <input class="form-control" <?php if($exist_mission){echo "value=\"".base64_decode($find_mission['title'])."\"";}?> name="titre" type="text" placeholder="Titre de la mission" />
+                                <input class="form-control" <?php if ($exist_mission) {
+                                                                echo "value=\"" . base64_decode($find_mission['title']) . "\"";
+                                                            } ?> name="titre" type="text" placeholder="Titre de la mission" />
                                 <label for="titre">Titre de la mission</label>
                             </div>
                             <div class="form-floating mb-3">
-                                <input class="form-control" <?php if($exist_mission){echo "value=\"".$find_mission['num_mission']."\"";}?> name="num_mission" type="text" placeholder="Numéro de mission" />
+                                <input class="form-control" <?php if ($exist_mission) {
+                                                                echo "value=\"" . $find_mission['num_mission'] . "\"";
+                                                            } ?> name="num_mission" type="text" placeholder="Numéro de mission" />
                                 <label for="num_mission">Numéro de mission</label>
                             </div>
                             <div class="form-floating mb-3">
-                                <input class="form-control" <?php if($exist_mission){echo "value=\"".base64_decode($find_mission['date_heure'])."\"";}?> name="date_heure" type="text" placeholder="Date et heure de la mission" />
+                                <input class="form-control" <?php if ($exist_mission) {
+                                                                echo "value=\"" . base64_decode($find_mission['date_heure']) . "\"";
+                                                            } ?> name="date_heure" type="text" placeholder="Date et heure de la mission" />
                                 <label for="date_heure">Date et heure de la mission</label>
                             </div>
                             <div class="form-floating mb-3">
-                                <textarea class="form-control" id="autosize" name="motif" style="height: 75px"><?php if($exist_mission){echo base64_decode($find_mission['motif']);}?></textarea>
+                                <textarea class="form-control" id="autosize" name="motif" style="height: 75px"><?php if ($exist_mission) {
+                                                                                                                    echo base64_decode($find_mission['motif']);
+                                                                                                                } ?></textarea>
                                 <label for="motif">Motif d'appel</label>
                             </div>
+                        </div>
                     </div>
-                </div>
 
-                <div class="card mb-5">
-                    <div class="card-header">2# Bilan de la situation à l'arrivée</div>
-                    <div class="card-body">
-                        <textarea class="form-control" id="autosize" name="editor" placeholder="Essayer de donner la meilleur image de la situation à l'arrivée" style="min-height: 100px"><?php if($exist_mission){echo stripslashes(str_replace("\\r\\n" ,PHP_EOL ,$find_mission['bilan_cir']));}?></textarea>
+                    <div class="card mb-5">
+                        <div class="card-header">2# Bilan de la situation à l'arrivée</div>
+                        <div class="card-body">
+                            <textarea class="form-control" id="autosize" name="editor" placeholder="Essayer de donner la meilleur image de la situation à l'arrivée" style="min-height: 100px"><?php if ($exist_mission) {
+                                                                                                                                                                                                    echo stripslashes(str_replace("\\r\\n", PHP_EOL, $find_mission['bilan_cir']));
+                                                                                                                                                                                                } ?></textarea>
+                        </div>
                     </div>
-                </div>
                 </form>
             </div>
         </div>
