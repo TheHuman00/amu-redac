@@ -17,7 +17,7 @@ include_once('./libs/header.php');?>
                                         </a>
                                         <a class="btn btn-link fw-500" href="contact">Ca marche comment ? <i class="ms-2" data-feather="arrow-right"></i></a>
                                     </div>
-                                    <div class="col-lg-6 d-none d-lg-block" data-aos="fade-up" data-aos-delay="100"><img class="img-fluid" src="https://i.imgur.com/jodR2wI.jpg" /></div>
+                                    <div class="col-lg-6 d-none d-lg-block" data-aos="fade-up" data-aos-delay="100"><img class="img-fluid" src="./assets/img/pres.jpg" /></div>
                                 </div>
                             </div>
                         </div>

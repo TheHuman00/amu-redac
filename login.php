@@ -12,7 +12,7 @@
       <div class="col-12 col-md-8 col-lg-6 col-xl-5">
         <div class="card shadow-2-strong" style="border-radius: 1rem;">
           <div class="card-body p-5 text-center">
-            <div class="text-center mb-2"><img src="https://i.imgur.com/SygdId3.png" width="105" height="56"></div>
+            <div class="text-center mb-2"><img src="./assets/img/form.png" width="105" height="56"></div>
             <h3 class="mb-2">Se connecter</h3>
             <p class="mb-5">AMU-Rédac</p>
             <form method="post" action="auth" class="clearfix">
