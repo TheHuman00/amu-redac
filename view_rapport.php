@@ -45,10 +45,10 @@ include_once('./libs/header.php'); ?>
                                             } else {
                                                 echo "primary";
                                             } ?>-soft text-<?php if ($count_mission == "5") {
-                                                                                                                                echo "success";
-                                                                                                                            } else {
-                                                                                                                                echo "primary";
-                                                                                                                            } ?> badge-marketing"><?php echo $count_mission ?>/5 marqué terminé</div>
+                                                                echo "success";
+                                                            } else {
+                                                                echo "primary";
+                                                            } ?> badge-marketing"><?php echo $count_mission ?>/5 marqué terminé</div>
                 </div>
                 <hr class="mb-0" />
                 <ul class="list-group list-group-flush list-group-careers">
@@ -56,50 +56,50 @@ include_once('./libs/header.php'); ?>
                         <a <?php if (!empty($title1)) {
                                 echo "class=\"text-secondary\"";
                             } ?> href="view_mission?id=<?php echo $id; ?>&mission=1"><?php if (!empty($title1)) {
-                                                                                                                                                echo $title1;
-                                                                                                                                            } else {
-                                                                                                                                                echo "Aucune mission enregistrée";
-                                                                                                                                            } ?></a>
+                                                                                            echo $title1;
+                                                                                        } else {
+                                                                                            echo "Aucune mission enregistrée";
+                                                                                        } ?></a>
                         <div class="small">Mission 1</div>
                     </li>
                     <li class="list-group-item">
                         <a <?php if (!empty($title2)) {
                                 echo "class=\"text-secondary\"";
                             } ?> href="view_mission?id=<?php echo $id; ?>&mission=2"><?php if (!empty($title2)) {
-                                                                                                                                                echo $title2;
-                                                                                                                                            } else {
-                                                                                                                                                echo "Aucune mission enregistrée";
-                                                                                                                                            } ?></a>
+                                                                                            echo $title2;
+                                                                                        } else {
+                                                                                            echo "Aucune mission enregistrée";
+                                                                                        } ?></a>
                         <div class="small">Mission 2</div>
                     </li>
                     <li class="list-group-item">
                         <a <?php if (!empty($title3)) {
                                 echo "class=\"text-secondary\"";
                             } ?> href="view_mission?id=<?php echo $id; ?>&mission=3"><?php if (!empty($title3)) {
-                                                                                                                                                echo $title3;
-                                                                                                                                            } else {
-                                                                                                                                                echo "Aucune mission enregistrée";
-                                                                                                                                            } ?></a>
+                                                                                            echo $title3;
+                                                                                        } else {
+                                                                                            echo "Aucune mission enregistrée";
+                                                                                        } ?></a>
                         <div class="small">Mission 3</div>
                     </li>
                     <li class="list-group-item">
                         <a <?php if (!empty($title4)) {
                                 echo "class=\"text-secondary\"";
                             } ?> href="view_mission?id=<?php echo $id; ?>&mission=4"><?php if (!empty($title4)) {
-                                                                                                                                                echo $title4;
-                                                                                                                                            } else {
-                                                                                                                                                echo "Aucune mission enregistrée";
-                                                                                                                                            } ?></a>
+                                                                                            echo $title4;
+                                                                                        } else {
+                                                                                            echo "Aucune mission enregistrée";
+                                                                                        } ?></a>
                         <div class="small">Mission 4</div>
                     </li>
                     <li class="list-group-item">
                         <a <?php if (!empty($title5)) {
                                 echo "class=\"text-secondary\"";
                             } ?> href="view_mission?id=<?php echo $id; ?>&mission=5"><?php if (!empty($title5)) {
-                                                                                                                                                echo $title5;
-                                                                                                                                            } else {
-                                                                                                                                                echo "Aucune mission enregistrée";
-                                                                                                                                            } ?></a>
+                                                                                            echo $title5;
+                                                                                        } else {
+                                                                                            echo "Aucune mission enregistrée";
+                                                                                        } ?></a>
                         <div class="small">Mission 5</div>
                     </li>
                 </ul>
@@ -110,10 +110,10 @@ include_once('./libs/header.php'); ?>
                                             } else {
                                                 echo "primary";
                                             } ?>-soft text-<?php if ($count_mission_smur == "5") {
-                                                                                                                                    echo "success";
-                                                                                                                                } else {
-                                                                                                                                    echo "primary";
-                                                                                                                                } ?> badge-marketing"><?php echo $count_mission_smur ?>/5 marqué terminé</div>
+                                                                echo "success";
+                                                            } else {
+                                                                echo "primary";
+                                                            } ?> badge-marketing"><?php echo $count_mission_smur ?>/5 marqué terminé</div>
                 </div>
                 <hr class="mb-0" />
                 <ul class="list-group list-group-flush list-group-careers">
@@ -121,50 +121,50 @@ include_once('./libs/header.php'); ?>
                         <a <?php if (!empty($title1_smur)) {
                                 echo "class=\"text-secondary\"";
                             } ?> href="view_mission-smur?id=<?php echo $id; ?>&mission=1"><?php if (!empty($title1_smur)) {
-                                                                                                                                                            echo $title1_smur;
-                                                                                                                                                        } else {
-                                                                                                                                                            echo "Aucune mission enregistrée";
-                                                                                                                                                        } ?></a>
+                                                                                                echo $title1_smur;
+                                                                                            } else {
+                                                                                                echo "Aucune mission enregistrée";
+                                                                                            } ?></a>
                         <div class="small">Mission 1</div>
                     </li>
                     <li class="list-group-item">
                         <a <?php if (!empty($title2_smur)) {
                                 echo "class=\"text-secondary\"";
                             } ?> href="view_mission-smur?id=<?php echo $id; ?>&mission=2"><?php if (!empty($title2_smur)) {
-                                                                                                                                                            echo $title2_smur;
-                                                                                                                                                        } else {
-                                                                                                                                                            echo "Aucune mission enregistrée";
-                                                                                                                                                        } ?></a>
+                                                                                                echo $title2_smur;
+                                                                                            } else {
+                                                                                                echo "Aucune mission enregistrée";
+                                                                                            } ?></a>
                         <div class="small">Mission 2</div>
                     </li>
                     <li class="list-group-item">
                         <a <?php if (!empty($title3_smur)) {
                                 echo "class=\"text-secondary\"";
                             } ?> href="view_mission-smur?id=<?php echo $id; ?>&mission=3"><?php if (!empty($title3_smur)) {
-                                                                                                                                                            echo $title3_smur;
-                                                                                                                                                        } else {
-                                                                                                                                                            echo "Aucune mission enregistrée";
-                                                                                                                                                        } ?></a>
+                                                                                                echo $title3_smur;
+                                                                                            } else {
+                                                                                                echo "Aucune mission enregistrée";
+                                                                                            } ?></a>
                         <div class="small">Mission 3</div>
                     </li>
                     <li class="list-group-item">
                         <a <?php if (!empty($title4_smur)) {
                                 echo "class=\"text-secondary\"";
                             } ?> href="view_mission-smur?id=<?php echo $id; ?>&mission=4"><?php if (!empty($title4_smur)) {
-                                                                                                                                                            echo $title4_smur;
-                                                                                                                                                        } else {
-                                                                                                                                                            echo "Aucune mission enregistrée";
-                                                                                                                                                        } ?></a>
+                                                                                                echo $title4_smur;
+                                                                                            } else {
+                                                                                                echo "Aucune mission enregistrée";
+                                                                                            } ?></a>
                         <div class="small">Mission 4</div>
                     </li>
                     <li class="list-group-item">
                         <a <?php if (!empty($title5_smur)) {
                                 echo "class=\"text-secondary\"";
                             } ?> href="view_mission-smur?id=<?php echo $id; ?>&mission=5"><?php if (!empty($title5_smur)) {
-                                                                                                                                                            echo $title5_smur;
-                                                                                                                                                        } else {
-                                                                                                                                                            echo "Aucune mission enregistrée";
-                                                                                                                                                        } ?></a>
+                                                                                                echo $title5_smur;
+                                                                                            } else {
+                                                                                                echo "Aucune mission enregistrée";
+                                                                                            } ?></a>
                         <div class="small">Mission 5</div>
                     </li>
                 </ul>
