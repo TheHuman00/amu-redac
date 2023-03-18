@@ -9,8 +9,8 @@ include_once('./libs/header.php'); ?>
         <div class="container px-5">
             <div class="row gx-5 align-items-center">
                 <div class="col-lg-6" data-aos="fade-up">
-                    <h1 class="page-header-ui-title">Une petite aide pour mes futurs AMU <3< /h1>
-                            <p class="page-header-ui-text mb-5">Création simplifié : faire son rapport au fur et à mesure. Permet de prendre des notes structurées pendant les stages !</p>
+                    <h1 class="page-header-ui-title">Une petite aide pour mes futurs AMU &#60;3</h1>
+                            <p class="page-header-ui-text mb-5">Création simplifié : Permet de prendre des notes structurées pendant les stages ! Faire son rapport au fur et à mesure.</p>
                             <a class="btn btn-teal fw-500 me-2" href="rapport">
                                 Commencer rapport
                                 <i class="ms-2" data-feather="arrow-right"></i>
