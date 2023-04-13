@@ -106,181 +106,205 @@ include_once('./libs/header.php'); ?>
                                 <div class="col">
                                     <div class="form-check form-switch">
                                         <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" name="proc[]" value="1">
-                                        <label class="form-check-label" for="flexSwitchCheckDefault">P 01 aspirer les voies aériennes supérieures chez un patient sans voie respiratoire artificielle</label>
+                                        <label class="form-check-label" for="flexSwitchCheckDefault">Aspirer voies aériennes</label>
                                     </div>
                                     <div class="form-check form-switch">
                                         <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" name="proc[]" value="2">
-                                        <label class="form-check-label" for="flexSwitchCheckDefault">P 02 aspirer les voies aériennes chez un patient avec une voie respiratoire artificielle</label>
+                                        <label class="form-check-label" for="flexSwitchCheckDefault">Aspirer voie respiratoire artificielle</label>
                                     </div>
                                     <div class="form-check form-switch">
                                         <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" name="proc[]" value="3">
-                                        <label class="form-check-label" for="flexSwitchCheckChecked">P 03 utiliser un saturomètre</label>
+                                        <label class="form-check-label" for="flexSwitchCheckChecked">Saturomètre</label>
                                     </div>
                                     <div class="form-check form-switch">
                                         <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDisabled" name="proc[]" value="4">
-                                        <label class="form-check-label" for="flexSwitchCheckDisabled">P 04 administrer de l’oxygène</label>
+                                        <label class="form-check-label" for="flexSwitchCheckDisabled">Administer de l'oxygène</label>
                                     </div>
                                     <div class="form-check form-switch">
                                         <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDisabled" name="proc[]" value="5">
-                                        <label class="form-check-label" for="flexSwitchCheckDisabled">P 05 utiliser un masque de poche </label>
+                                        <label class="form-check-label" for="flexSwitchCheckDisabled">Masque de poche</label>
                                     </div>
                                     <div class="form-check form-switch">
                                         <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" name="proc[]" value="6">
-                                        <label class="form-check-label" for="flexSwitchCheckDefault">P 06 placer une canule de mayo</label>
+                                        <label class="form-check-label" for="flexSwitchCheckDefault">Canule de mayo</label>
                                     </div>
                                     <div class="form-check form-switch">
                                         <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" name="proc[]" value="7">
-                                        <label class="form-check-label" for="flexSwitchCheckDefault">p 07 ventiler à l’aide d’un ballon de réanimation et d’un masque</label>
+                                        <label class="form-check-label" for="flexSwitchCheckDefault">Ventilation masque de réa + ballon</label>
                                     </div>
                                     <div class="form-check form-switch">
                                         <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" name="proc[]" value="8">
-                                        <label class="form-check-label" for="flexSwitchCheckChecked">P 08 dégager les voies aériennes lors d’une fausse déglutition</label>
+                                        <label class="form-check-label" for="flexSwitchCheckChecked">Dégagé VR contre fausse déglut</label>
                                     </div>
                                     <div class="form-check form-switch">
                                         <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDisabled" name="proc[]" value="9">
-                                        <label class="form-check-label" for="flexSwitchCheckDisabled">P 09 aide lors du placement d’un tube endotrachéal (tet)</label>
+                                        <label class="form-check-label" for="flexSwitchCheckDisabled">Aide : tube endotrachéal</label>
                                     </div>
                                     <div class="form-check form-switch">
                                         <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDisabled" name="proc[]" value="10">
-                                        <label class="form-check-label" for="flexSwitchCheckDisabled">P 10 aide au placement d’un dispositif supra glottique chez un adulte</label>
+                                        <label class="form-check-label" for="flexSwitchCheckDisabled">Aide : supra glottique</label>
                                     </div>
                                     <div class="form-check form-switch">
                                         <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDisabled" name="proc[]" value="11">
-                                        <label class="form-check-label" for="flexSwitchCheckDisabled">P 11 surveiller un patient avec une voie respiratoire artificielle</label>
+                                        <label class="form-check-label" for="flexSwitchCheckDisabled">Surveiller : VR artificielle</label>
                                     </div>
                                     <div class="form-check form-switch">
                                         <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" name="proc[]" value="12">
-                                        <label class="form-check-label" for="flexSwitchCheckDefault">P 12 mesurer la pression artérielle à l’aide d’un tensiomètre automatique </label>
+                                        <label class="form-check-label" for="flexSwitchCheckDefault">Tensiomètre automatique</label>
                                     </div>
                                     <div class="form-check form-switch">
                                         <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" name="proc[]" value="13">
-                                        <label class="form-check-label" for="flexSwitchCheckDefault">P 13 mesurer la pression artérielle à l’aide d’un tensiomètre manuel </label>
+                                        <label class="form-check-label" for="flexSwitchCheckDefault">Tensiomètre manuel</label>
                                     </div>
                                     <div class="form-check form-switch">
                                         <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" name="proc[]" value="14">
-                                        <label class="form-check-label" for="flexSwitchCheckChecked">P 14 mesurer la glycémie capillaire</label>
+                                        <label class="form-check-label" for="flexSwitchCheckChecked">Glycémie</label>
                                     </div>
                                     <div class="form-check form-switch">
                                         <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDisabled" name="proc[]" value="15">
-                                        <label class="form-check-label" for="flexSwitchCheckDisabled">P 15 mesurer le rythme cardiaque au niveau de l’artère radiale (poignet)</label>
+                                        <label class="form-check-label" for="flexSwitchCheckDisabled">Rythme cardiaque l’artère radiale</label>
                                     </div>
                                     <div class="form-check form-switch">
                                         <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDisabled" name="proc[]" value="16">
-                                        <label class="form-check-label" for="flexSwitchCheckDisabled">P 16 mesurer le rythme cardiaque au niveau de l’artère carotide</label>
+                                        <label class="form-check-label" for="flexSwitchCheckDisabled">Rythme cardiaque l’artère carotide</label>
                                     </div>
                                     <div class="form-check form-switch">
                                         <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDisabled" name="proc[]" value="17">
-                                        <label class="form-check-label" for="flexSwitchCheckDisabled">P 17 mesurer la température corporelle à l’aide d’un thermomètre auriculaire digital (tympan)</label>
+                                        <label class="form-check-label" for="flexSwitchCheckDisabled">Thermomètre auriculaire digital (tympan)</label>
                                     </div>
                                     <div class="form-check form-switch">
                                         <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" name="proc[]" value="18">
-                                        <label class="form-check-label" for="flexSwitchCheckDefault">P 18 mesurer la température corporelle au niveau des aiselles avec un thermomètre digital </label>
+                                        <label class="form-check-label" for="flexSwitchCheckDefault">Thermomètre aiselles digital </label>
                                     </div>
                                     <div class="form-check form-switch">
                                         <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" name="proc[]" value="19">
-                                        <label class="form-check-label" for="flexSwitchCheckDefault">P 19 mesurer la température corporelle sous la langue à l’aide un thermomètre digital</label>
+                                        <label class="form-check-label" for="flexSwitchCheckDefault">Thermomètre langues digital</label>
                                     </div>
                                     <div class="form-check form-switch">
                                         <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" name="proc[]" value="20">
-                                        <label class="form-check-label" for="flexSwitchCheckChecked">P 20 mesurer la température corporelle au niveau rectal d’un enfant à l’aide d’un thermomètre digital</label>
+                                        <label class="form-check-label" for="flexSwitchCheckChecked">Thermomètre rectale digital</label>
                                     </div>
                                     <div class="form-check form-switch">
                                         <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDisabled" name="proc[]" value="21">
-                                        <label class="form-check-label" for="flexSwitchCheckDisabled">P 21 utiliser un moniteur cardiaque</label>
+                                        <label class="form-check-label" for="flexSwitchCheckDisabled">Moniteur cardiaque (ECG)</label>
                                     </div>
                                     <div class="form-check form-switch">
                                         <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDisabled" name="proc[]" value="22">
-                                        <label class="form-check-label" for="flexSwitchCheckDisabled">P 22 aide à l’utilisation d’un défibrillateur manuel</label>
+                                        <label class="form-check-label" for="flexSwitchCheckDisabled">Défibrillateur manuel</label>
                                     </div>
                                     <div class="form-check form-switch">
                                         <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDisabled" name="proc[]" value="23">
-                                        <label class="form-check-label" for="flexSwitchCheckDisabled">P 23 administrer un médicament par voie orale</label>
+                                        <label class="form-check-label" for="flexSwitchCheckDisabled">Médicament voie orale</label>
                                     </div>
                                     <div class="form-check form-switch">
                                         <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDisabled" name="proc[]" value="24">
-                                        <label class="form-check-label" for="flexSwitchCheckDisabled">P 24 administrer un aérosol </label>
+                                        <label class="form-check-label" for="flexSwitchCheckDisabled">Aérosol </label>
                                     </div>
                                     <div class="form-check form-switch">
                                         <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDisabled" name="proc[]" value="25">
-                                        <label class="form-check-label" for="flexSwitchCheckDisabled">P 25 administrer un aérosol-doseur/ inhalateur</label>
+                                        <label class="form-check-label" for="flexSwitchCheckDisabled">Aérosol-doseur/ inhalateur</label>
                                     </div>
                                 </div>
                                 <div class="col">
                                     <div class="form-check form-switch">
                                         <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDisabled" name="proc[]" value="26">
-                                        <label class="form-check-label" for="flexSwitchCheckDisabled">P 26 préparer une injection sous-cutanée</label>
+                                        <label class="form-check-label" for="flexSwitchCheckDisabled">Préparer une injection sous-cutanée</label>
                                     </div>
                                     <div class="form-check form-switch">
                                         <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDisabled" name="proc[]" value="27">
-                                        <label class="form-check-label" for="flexSwitchCheckDisabled">P 27 préparer une injection intramusculaire</label>
+                                        <label class="form-check-label" for="flexSwitchCheckDisabled">Préparer une injection intramusculaire</label>
                                     </div>
                                     <div class="form-check form-switch">
                                         <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDisabled" name="proc[]" value="28">
-                                        <label class="form-check-label" for="flexSwitchCheckDisabled">P 28 préparer une injection intraveineuse</label>
+                                        <label class="form-check-label" for="flexSwitchCheckDisabled">Préparer une injection intraveineuse</label>
                                     </div>
                                     <div class="form-check form-switch">
                                         <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDisabled" name="proc[]" value="29">
-                                        <label class="form-check-label" for="flexSwitchCheckDisabled">P 29 préparer une perfusion </label>
+                                        <label class="form-check-label" for="flexSwitchCheckDisabled">Préparer une perfusion </label>
+                                    </div>
+                                    <div class="form-check form-switch">
+                                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDisabled" name="proc[]" value="30">
+                                        <label class="form-check-label" for="flexSwitchCheckDisabled">Cathéter périphérique intraveineux</label>
+                                    </div>
+                                    <div class="form-check form-switch">
+                                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDisabled" name="proc[]" value="31">
+                                        <label class="form-check-label" for="flexSwitchCheckDisabled">Perfusion périphérique intraveineuse</label>
+                                    </div>
+                                    <div class="form-check form-switch">
+                                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDisabled" name="proc[]" value="32">
+                                        <label class="form-check-label" for="flexSwitchCheckDisabled">Cathéter intra osseux </label>
+                                    </div>
+                                    <div class="form-check form-switch">
+                                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDisabled" name="proc[]" value="33">
+                                        <label class="form-check-label" for="flexSwitchCheckDisabled">Déplacer un patient (1 secouriste)</label>
+                                    </div>
+                                    <div class="form-check form-switch">
+                                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDisabled" name="proc[]" value="34">
+                                        <label class="form-check-label" for="flexSwitchCheckDisabled">Déplacer un patient (2 secouristes)</label>
+                                    </div>
+                                    <div class="form-check form-switch">
+                                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDisabled" name="proc[]" value="35">
+                                        <label class="form-check-label" for="flexSwitchCheckDisabled">Déplacer lit au brancard</label>
                                     </div>
                                     <div class="form-check form-switch">
                                         <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDisabled" name="proc[]" value="36">
-                                        <label class="form-check-label" for="flexSwitchCheckDisabled">P 36 tourner un patient - technique « tourner en bloc » (2 secouristes)</label>
+                                        <label class="form-check-label" for="flexSwitchCheckDisabled">Tourner en bloc</label>
                                     </div>
                                     <div class="form-check form-switch">
                                         <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDisabled" name="proc[]" value="37">
-                                        <label class="form-check-label" for="flexSwitchCheckDisabled">P 37 poser un collier cervical ‘rigide’ (2 secouristes)</label>
+                                        <label class="form-check-label" for="flexSwitchCheckDisabled">Collier cervical</label>
                                     </div>
                                     <div class="form-check form-switch">
                                         <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDisabled" name="proc[]" value="38">
-                                        <label class="form-check-label" for="flexSwitchCheckDisabled">P 38 déplacer un patient avec un scoop (2 secouristes)</label>
+                                        <label class="form-check-label" for="flexSwitchCheckDisabled">Scoop</label>
                                     </div>
                                     <div class="form-check form-switch">
                                         <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDisabled" name="proc[]" value="39">
-                                        <label class="form-check-label" for="flexSwitchCheckDisabled">P 39 immobilisation d’un patient a l’aide d’un matelas a depression (2 secouristes)</label>
+                                        <label class="form-check-label" for="flexSwitchCheckDisabled">Matelas a depression</label>
                                     </div>
                                     <div class="form-check form-switch">
                                         <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDisabled" name="proc[]" value="40">
-                                        <label class="form-check-label" for="flexSwitchCheckDisabled">P 40 immobilisation d’un patient avec une planche (2 secouristes)</label>
+                                        <label class="form-check-label" for="flexSwitchCheckDisabled">Planche</label>
                                     </div>
                                     <div class="form-check form-switch">
                                         <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDisabled" name="proc[]" value="41">
-                                        <label class="form-check-label" for="flexSwitchCheckDisabled">P 41 poser un dispositif d’extraction (2 secouristes)</label>
+                                        <label class="form-check-label" for="flexSwitchCheckDisabled">Ferno-ket</label>
                                     </div>
                                     <div class="form-check form-switch">
                                         <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDisabled" name="proc[]" value="42">
-                                        <label class="form-check-label" for="flexSwitchCheckDisabled">P 42 enlever un casque intégral (2 secouristes)</label>
+                                        <label class="form-check-label" for="flexSwitchCheckDisabled">Enlever un casque intégral</label>
                                     </div>
                                     <div class="form-check form-switch">
                                         <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDisabled" name="proc[]" value="43">
-                                        <label class="form-check-label" for="flexSwitchCheckDisabled">P 43 poser un bandage circulaire</label>
+                                        <label class="form-check-label" for="flexSwitchCheckDisabled">Bandage circulaire</label>
                                     </div>
                                     <div class="form-check form-switch">
                                         <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDisabled" name="proc[]" value="44">
-                                        <label class="form-check-label" for="flexSwitchCheckDisabled">P 44 poser un bandage en spica</label>
+                                        <label class="form-check-label" for="flexSwitchCheckDisabled">Bandage en spica</label>
                                     </div>
                                     <div class="form-check form-switch">
                                         <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDisabled" name="proc[]" value="45">
-                                        <label class="form-check-label" for="flexSwitchCheckDisabled">P 45 poser un bandage au niveau d’une articulation</label>
+                                        <label class="form-check-label" for="flexSwitchCheckDisabled">Bandage au niveau d’une articulation</label>
                                     </div>
                                     <div class="form-check form-switch">
                                         <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDisabled" name="proc[]" value="46">
-                                        <label class="form-check-label" for="flexSwitchCheckDisabled">P 46 poser une attelle à dépression (2 secouristes)</label>
+                                        <label class="form-check-label" for="flexSwitchCheckDisabled">Attelle à dépression</label>
                                     </div>
                                     <div class="form-check form-switch">
                                         <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDisabled" name="proc[]" value="47">
-                                        <label class="form-check-label" for="flexSwitchCheckDisabled">P 47 aide à la ponction d’une chambre implantable</label>
+                                        <label class="form-check-label" for="flexSwitchCheckDisabled">Ponction d’une chambre implantable</label>
                                     </div>
                                     <div class="form-check form-switch">
                                         <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDisabled" name="proc[]" value="48">
-                                        <label class="form-check-label" for="flexSwitchCheckDisabled">P 48 aide à l’exsufflation d’un pneumothorax sous tension (suffocant)on d’un pneumothorax sous tension (suffocant)</label>
+                                        <label class="form-check-label" for="flexSwitchCheckDisabled">Aide à l’exsufflation d’un pneumothorax</label>
                                     </div>
                                     <div class="form-check form-switch">
                                         <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDisabled" name="proc[]" value="49">
-                                        <label class="form-check-label" for="flexSwitchCheckDisabled">P 49 aide au placement d’un dispositif respiratoire à pression positive continue (cpap)</label>
+                                        <label class="form-check-label" for="flexSwitchCheckDisabled">Aide CPAP</label>
                                     </div>
                                     <div class="form-check form-switch">
                                         <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDisabled" name="proc[]" value="50">
-                                        <label class="form-check-label" for="flexSwitchCheckDisabled">P 50 contention visant à prevenir des blessures corporelles</label>
+                                        <label class="form-check-label" for="flexSwitchCheckDisabled">Contention contre blessures corporelles</label>
                                     </div>
                                 </div>
                             </div>    
@@ -289,35 +313,33 @@ include_once('./libs/header.php'); ?>
                                 <label for="menuderoulant" class="form-label">Ordre Permanents</label>
                                 <select class="form-select" id="menuderoulant" name="ordre">
                                     <option value="0" selected>Pas d'op</option>
-                                    <option value="1">OP1</option>
-                                    <option value="2">OP2</option>
-                                    <option value="3">OP3</option>
-                                    <option value="4">OP4</option>
-                                    <option value="5">OP2</option>
-                                    <option value="6">OP3</option>
-                                    <option value="7">OP1</option>
-                                    <option value="8">OP2</option>
-                                    <option value="9">OP3</option>
-                                    <option value="10">OP1</option>
-                                    <option value="11">OP2</option>
-                                    <option value="12">OP3</option>
-                                    <option value="13">OP1</option>
-                                    <option value="14">OP2</option>
-                                    <option value="15">OP3</option>
-                                    <option value="16">OP1</option>
-                                    <option value="17">OP2</option>
-                                    <option value="18">OP3</option>
-                                    <option value="19">OP1</option>
-                                    <option value="20">OP2</option>
-                                    <option value="21">OP3</option>
-                                    <option value="22">OP2</option>
-                                    <option value="23">OP3</option>
-                                    <option value="24">OP1</option>
-                                    <option value="25">OP2</option>
-                                    <option value="26">OP3</option>
-                                    <option value="27">OP1</option>
-                                    <option value="28">OP2</option>
-                                    <option value="29">OP3</option>
+                                    <option value="1">Grossesse</option>
+                                    <option value="2">Antalgie traumatique</option>
+                                    <option value="3">Antalgie urgence non traumatique</option>
+                                    <option value="4">Brûlures</option>
+                                    <option value="5">Choc hypovolémique</option>
+                                    <option value="6">Convulsions adulte</option>
+                                    <option value="7">Convulsions enfant</option>
+                                    <option value="8">Choc élétrique et électrocution</option>
+                                    <option value="9">Agitation</option>
+                                    <option value="10">Hyperthermie</option>
+                                    <option value="11">Hypoglycémie</option>
+                                    <option value="12">Hypothermie</option>
+                                    <option value="13">Diminution conscience</option>
+                                    <option value="14">Difficultés respi adulte</option>
+                                    <option value="15">Difficultés respi enfant</option>
+                                    <option value="16">Intox CO ou fumée incendie</option>
+                                    <option value="17">Noyé</option>
+                                    <option value="18">PIM</option>
+                                    <option value="19">Choc anaphylactique</option>
+                                    <option value="20">RCP adulte</option>
+                                    <option value="21">RCP enfant</option>
+                                    <option value="24">D+ thoraciques</option>
+                                    <option value="25">Trauma sévère & cranien</option>
+                                    <option value="26">Amputation, écrasement, délabrement</option>
+                                    <option value="27">Fracture ouverte</option>
+                                    <option value="28">Trouble du rythme</option>
+                                    <option value="29">AVC</option>
                                 </select>
                             </div>
                         </div>
