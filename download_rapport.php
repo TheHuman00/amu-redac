@@ -19,6 +19,17 @@ function prepare($texte)
 {
     return str_replace("\\r\\n", "<w:br/>", $texte);
 }
+$acte_1 = 'aspirer les voies aériennes supérieures chez un patient sans voie
+respiratoire artificielle';
+function join_actes($actes) {
+    $acte_separer = explode(':', $actes);
+    foreach($acte_separer as $acte){
+        $acte_1 = 'P01 : aspirer les voies aériennes supérieures chez un patient sans voie respiratoire artificielle';
+        if($acte == '1'){
+            return $acte_1;
+        }
+    }
+}
 
 
 $find_mission_1_smur = trouver_mission_smur($id, "1");
@@ -194,7 +205,7 @@ $data_ambu = array(
     "c_1" => prepare($find_mission_1['c']),
     "d_1" => prepare($find_mission_1['d']),
     "e_1" => prepare($find_mission_1['e']),
-    "actes_1" => prepare($find_mission_1['actes']),
+    "actes_1" => join_actes($find_mission_1['actes']),
     "reevalution_1" => prepare($find_mission_1['reevalution']),
     "autre_moyen_1" => prepare($find_mission_1['autre_moyen']),
     "actes_stagiaire_1" => prepare($find_mission_1['actes_stagiaire']),
