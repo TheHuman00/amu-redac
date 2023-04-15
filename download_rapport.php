@@ -19,16 +19,22 @@ function prepare($texte)
 {
     return str_replace("\\r\\n", "<w:br/>", $texte);
 }
-$acte_1 = 'aspirer les voies aériennes supérieures chez un patient sans voie
-respiratoire artificielle';
+
 function join_actes($actes) {
     $acte_separer = explode(':', $actes);
+    $resultats = array();
     foreach($acte_separer as $acte){
-        $acte_1 = 'P01 : aspirer les voies aériennes supérieures chez un patient sans voie respiratoire artificielle';
+        $acte_1 = 'P01 : aspirer les voies aériennes supérieures chez un patient sans voie respiratoire artificielle <w:br/>';
+        $acte_2 = 'P02 : aspirer les voies aériennes supérieures chez un patient sans voie respiratoire artificielle <w:br/>';
         if($acte == '1'){
-            return $acte_1;
+            $resultats[] = $acte_1;
+        }
+        if($acte == '2'){
+            $resultats[] = $acte_2;
         }
     }
+    $resultat_string = implode('', $resultats);
+    return $resultat_string;
 }
 
 
