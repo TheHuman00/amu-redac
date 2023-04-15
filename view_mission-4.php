@@ -356,6 +356,10 @@ include_once('./libs/header.php'); ?>
                     <div class="card mb-5">
                         <div class="card-header">13# Décision d’appel à un autre moyen de secours</div>
                         <div class="card-body">
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" role="switch" id="switcheditor2" checked>
+                            <label class="form-check-label" id="texteditor2" >Besoin de moyen supplémentaire : oui</label>
+                        </div>
                             <textarea name="editor2" class="form-control" placeholder="Moyen supplémentaire engagé ? Aurai été nécessaire ? Analyse" id="autosize" style="min-height: 100px"><?php if ($exist_mission && !empty($find_mission['autre_moyen'])) {
                                                                                                                                                                                                     echo stripslashes(str_replace("\\r\\n", PHP_EOL, $find_mission['autre_moyen']));
                                                                                                                                                                                                 } ?></textarea>
@@ -389,4 +393,17 @@ include_once('./libs/header.php'); ?>
     </div>
 </section>
 </main>
+<script>
+    var switch1 = document.getElementById('switcheditor2');
+
+    switch1.addEventListener("change", function() {
+      if (this.checked) {
+        document.getElementById('texteditor2').html("Besoin de moyen supplémentaire : non");
+        document.getElementsByName('editor2')[0].removeAttribute('hidden');
+      } else {
+        document.getElementById('texteditor2').html("Besoin de moyen supplémentaire : non");
+        document.getElementsByName('editor2')[0].setAttribute('hidden', "");
+      }
+    });
+</script>
 <?php include_once('./libs/footer.php'); ?>
