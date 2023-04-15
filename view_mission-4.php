@@ -398,10 +398,8 @@ include_once('./libs/header.php'); ?>
 
     switch1.addEventListener("change", function() {
       if (this.checked) {
-        document.getElementById('texteditor2').html("Besoin de moyen supplémentaire : non");
         document.getElementsByName('editor2')[0].removeAttribute('hidden');
       } else {
-        document.getElementById('texteditor2').html("Besoin de moyen supplémentaire : non");
         document.getElementsByName('editor2')[0].setAttribute('hidden', "");
       }
     });
