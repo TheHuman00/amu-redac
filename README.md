@@ -33,7 +33,7 @@
 ```bash
 # Cloner le projet
 $ git clone https://github.com/TheHuman00/amu-redac.git
-# Accéder au dossier télécharger
+# Accéder au dossier téléchargé
 $ cd amu-redac
 ```
 
